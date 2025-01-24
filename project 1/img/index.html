@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry's Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+        /* css reset */
+        body{
+            color: rgb(240, 12, 12);
+            font-family: cursive;
+            margin: 0px;
+            padding: 0px;
+            background: url(bg.jpg.jpg);
+            height: 300px;
+        }
+        
+        .left{
+            display: inline-block;
+            position: absolute;
+            left: 30px;
+            top: 20px;
+         border: 2px solid red;
+        }
+
+        .mid{
+            display: block;
+            width: 45%;
+            margin: auto;
+          /* border: 2px solid rgb(207, 25, 40); */
+          top: 20px;
+        }
+
+        .right{
+            position: absolute;
+            right: 34px;
+            top: 20px;
+         border: 2px solid rgb(231, 18, 36);
+        }
+
+        .navbar{
+            display: inline-block;
+        }
+        .div left{
+            line-height: 25px;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 25px;
+        }
+        .navbar li a{
+            color: rgb(155, 62, 241);
+            text-decoration: none;
+            padding: 34px;
+        }
+
+        .navbar li a:hover, .navbar li a.active{
+            text-decoration: underline;
+            color: rgb(248, 37, 37);
+        }
+
+        .left img{
+            width:  40px;
+            text-align: center;
+        }
+        .btn{
+            font-family: cursive;
+            background-color: rgb(238, 11, 60);
+            color: white;
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        .btn :hover{
+            background-color: rgb(27, 194, 63);
+        }
+        .container{
+            border: 2px solid green;
+            margin: 76px;
+            padding: 33px;
+            width: 350px;
+            border-radius: 4px;
+        }
+        .form-group input{
+            font-family: cursive;
+            text-align: center;
+            display: block;
+            width: 250px;
+            padding: 6px;
+            border: 2 px solid black;
+            margin: 10px;
+        }
+        form-group h1{
+            width: 35px;
+            text-align: center;
+        }
+        .container button{
+            display: block;
+            width: 33%;
+            margin:auto;
+        }
+       .left div{
+            text-align: center;
+        }
+     
+</style>
+<body>
+      <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+         <img src= "https://t4.ftcdn.net/jpg/04/22/12/95/240_F_422129557_tBylYldzJ5KjVTEdRLMkQIaYizThV1PE.jpg" alt=""
+        <div>  Harry Fitness </div>
+
+        <!-- mid box for navbar -->
+        <div class="mid">
+        
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">fitness calculetor</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+
+        </div>
+
+        <!-- right box for button -->
+        <div class="right">
+            <button class="btn">call us now</button>
+            <button class="btn">Email us</button>
+        </div>
+      </header>  
+      
+      <div class="container">
+        <h1>join the best gym at delhi</h1>
+        <form action="
+        " class="action">
+        <div class="form-group">
+            <input type="text" name="" placeholder="enter your name"
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="enter your age"
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="enter your company name"
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="enter your contact number"
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="enter your Email id"
+        </div>
+
+        <div class ="form-group">
+            <input type="text" name="" placeholder=" Enter your Whatsapp Number"
+        </div>
+
+        <buton class="btn">submit</buton>
+    </form>
+      </div>
+</body>
+</html>
